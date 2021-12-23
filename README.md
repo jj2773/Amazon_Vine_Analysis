@@ -6,7 +6,7 @@ The purpose of this analysis was to determine if there is any bias towards revie
 
 The data was first stored in an AWS Postgres database via PySpark and then retrieved back into a Spark Dataframe as seen below.
 
-![alt text](https://github.com/jj2773/Amazon_Vine_Analysis/blob/main/vine_df.png)
+![alt text](https://github.com/jj2773/Amazon_Vine_Analysis/blob/main/vine_df.PNG)
 
 It was desired to then filter only reviews with more than 20 total votes and a helpful votes ratio of 50% or more.
 
@@ -16,7 +16,7 @@ Refrencing the summary data below some observations can be mode from the data
 * The number of 5 star ratings from vine members was 15 while the non-vine members gave 4332 5 star ratings.
 * Therefore the percentage of 5 Star Ratings for vine members was 32% versus 52% for non-vine members
 
-![alt text](https://github.com/jj2773/Amazon_Vine_Analysis/blob/main/vine_vs_nonvine_5star_ratings.png)
+![alt text](https://github.com/jj2773/Amazon_Vine_Analysis/blob/main/vine_vs_nonvine_5star_ratings.PNG)
 
 
 ## Summary
